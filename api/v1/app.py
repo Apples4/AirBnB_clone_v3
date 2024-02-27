@@ -3,7 +3,7 @@
 import os
 from models import storage
 from flask import Flask, jsonify
-from api.v1.views import *
+from api.v1.views import app_views
 from flask_cors import CORS
 
 app = Flask(__name__)
